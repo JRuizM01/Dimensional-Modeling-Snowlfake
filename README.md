@@ -28,8 +28,9 @@ This whole process will increase the size of the database with the star schema, 
 - Created a star schema ERD through LucidChart for each business process:
       - You can see each ERDs (in png format) for Inbound Order, Outbound Order, and Inventory
 - Put all the new star-schema ERDs together to form a snowflake-shaped common ERD (see NewSnowflakeERDJCo.png)
-    **SNOWFLAKE CODE (SnowSQL):** (See Full_SnowSQL_JCo_/C
-ode)
+
+**SNOWFLAKE CODE (SnowSQL):**
+(See Full_SnowSQL_JCo_/Code)
 1. Created all the new tables, facts, and dimensions that' would be useful for the new JensonCo data warehouse
    - Set all the table names and table relationships (PK, FK) according to the ERD
    - Set all the field names and data types
