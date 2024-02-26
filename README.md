@@ -3,7 +3,7 @@ Transformed a business database from a transactional database towards a data war
 
 **CONTEXT:**
 The Jensen company is a distributor of foods around the world. They need to restructure their whole database system. To do so, I redesigned, recreated, and repopulated a data warehouse given their current database management system.
-  - You can see their current database format in the **OldJensenCoERD** image
+  - You can see their current database format in the **OldJensenCoDB** image (OldJensenCoDB.png)
   - You can also download **OldJensenCoDB database**, which is made of a 8 table transactional database. It is a Microsoft Access file type.
 
 **GOAL:**
