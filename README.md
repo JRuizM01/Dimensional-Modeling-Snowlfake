@@ -12,5 +12,6 @@ I will update their transactional database system and implement three start sche
 1. Customer placing order
 2. The inventory tracking process
 3. The ordering of supplies from the supplier process
+
 These three start schemas will then be put together into one data warehouse.
 The purpose will also be to move their database tool from Microsoft Access to Snowflake.
