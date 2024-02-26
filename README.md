@@ -9,12 +9,18 @@ The Jensen company is a distributor of foods around the world. They need to rest
 **GOAL:**
 By the end of this project, the new data warehouse for Jensen Co. will be populated. As a data engineer, my job is to improve their business process and make their database more efficient and easier to use.
 I will update their transactional database system and implement three start schemas, one for each business process that they would like to track:
-1. Customer placing order (Inbound Order)
-2. The inventory tracking process (Inventory)
-3. The ordering of supplies from the supplier process (Outbound Order)
+1. Customer placing order (Inbound Order):
+    Each row in this table represents a single item within the order placed by the customer instead of a cumulative order → this increased the granularity of the table
+2. The inventory tracking process (Inventory):
+    Each row in this table represents the quantity of a particular item that needs to be ordered from the supplier at a given warehouse.
+3. The ordering of supplies from the supplier process (Outbound Order):
+    Each row in this table should represent the quantity of a particular item on-hand at a given warehouse during a specific week.
 
 These three start schemas will then be put together into one data warehouse.
 The purpose will also be to move their database tool from Microsoft Access to Snowflake.
+
+**NOTE**
+This whole process will increase the size of the database with the star schema, which will increase the storage size of the database. Storage is cheap, computing is expensive.
 
 
 **MILESTONES:**
