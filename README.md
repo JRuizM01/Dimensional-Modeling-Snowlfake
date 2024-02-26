@@ -22,4 +22,16 @@ The purpose will also be to move their database tool from Microsoft Access to Sn
 - Created a star schema ERD through LucidChart for each business process:
       - You can see each ERDs (in png format) for Inbound Order, Outbound Order, and Inventory
 - Put all the new star-schema ERDs together to form a snowflake-shaped common ERD (see NewSnowflakeERDJCo.png)
+    **SNOWFLAKE CODE (SnowSQL):** (See Full_SnowSQL_JCo_/C
+ode)
+1. Created all the new tables, facts, and dimensions that' would be useful for the new JensonCo data warehouse
+   - Set all the table names and table relationships (PK, FK) according to the ERD
+   - Set all the field names and data types
+   - Important: defined the tables so that when new data was added, the PKs and FKs would react accordingly and with no issue
+2. Imported all the data from the Microsoft Access old JensonCo database
+   - Created raw empty tables with the corresponding data types
+   - Copied the csv files into the Snowflake raw empty tables
+3. Populated the new JensonCo data warehouse with the copied imported tables
+   - Used INSERT INTO commands
+4. Now that the data is fully operational, it can be used for data analysis, and other data inputs
   
