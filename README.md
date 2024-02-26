@@ -9,9 +9,9 @@ The Jensen company is a distributor of foods around the world. They need to rest
 **GOAL:**
 By the end of this project, the new data warehouse for Jensen Co. will be populated. As a data engineer, my job is to improve their business process and make their database more efficient and easier to use.
 I will update their transactional database system and implement three start schemas, one for each business process that they would like to track:
-1. Customer placing order 
-2. The inventory tracking process
-3. The ordering of supplies from the supplier process
+1. Customer placing order (Inbound Order)
+2. The inventory tracking process (Inventory)
+3. The ordering of supplies from the supplier process (Outbound Order)
 
 These three start schemas will then be put together into one data warehouse.
 The purpose will also be to move their database tool from Microsoft Access to Snowflake.
@@ -19,5 +19,7 @@ The purpose will also be to move their database tool from Microsoft Access to Sn
 
 **MILESTONES:**
 - Identified the necessary tables needed for the star schema of each process (See Business Matrix --> Business Matrix JensenCo.png)
-- Created an ERD through LucidChart for each business process:
-      - 
+- Created a star schema ERD through LucidChart for each business process:
+      - You can see each ERDs (in png format) for Inbound Order, Outbound Order, and Inventory
+- Put all the new star-schema ERDs together to form a snowflake-shaped common ERD (see NewSnowflakeERDJCo.png)
+  
