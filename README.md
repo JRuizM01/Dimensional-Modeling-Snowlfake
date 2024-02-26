@@ -18,4 +18,6 @@ The purpose will also be to move their database tool from Microsoft Access to Sn
 
 
 **MILESTONES:**
-- Identified the necessary tables needed for the star schema of each process (See Business Matrix)
+- Identified the necessary tables needed for the star schema of each process (See Business Matrix --> Business Matrix JensenCo.png)
+- Created an ERD through LucidChart for each business process:
+      - 
